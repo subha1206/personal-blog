@@ -413,6 +413,12 @@ img {
     height: 70px;
   }
 }
+@media only screen and (max-width: 520px) { 
+  .top-header {
+    height: 70px;
+    display: none;
+  }
+}
 
 .header-area .top-header .top-social-area {
   text-align: right;
@@ -1336,6 +1342,15 @@ img {
   z-index: 1;
   background-attachment: fixed;
   background-image: url(img/bg-img/cover.JPG) !important;
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 767px) { 
+  .cool-facts-area {
+    background-attachment: fixed;
+    background-image: url(img/bg-img/coverSmall.jpg) !important;
+
+  }
 }
 
 .cool-facts-area .single-blog-area .line {
