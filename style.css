@@ -1335,6 +1335,7 @@ img {
   position: relative;
   z-index: 1;
   background-attachment: fixed;
+  background-image: url(img/bg-img/cover.JPG) !important;
 }
 
 .cool-facts-area .single-blog-area .line {
